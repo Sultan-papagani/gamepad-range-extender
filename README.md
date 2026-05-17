@@ -61,6 +61,12 @@ The UART communication uses a strict 15-byte packet to ensure data integrity at 
 * `Byte 2:` Payload Length (0x0C / 12 bytes)
 * `Bytes 3-14:` Raw XInput struct (wButtons, bLeftTrigger, bRightTrigger, sThumbLX, sThumbLY, sThumbRX, sThumbRY)
 
+## Credits
+This project relies on the foundational work of the open-source community to interface with Microsoft's proprietary XInput protocol. Special thanks to the following repositories for their XInput host drivers for TinyUSB, which made the Raspberry Pi Pico implementation possible:
+
+* Ryzee119 / tusb_xinput -> https://github.com/Ryzee119/tusb_xinput
+* fluffymadness / tinyusb-xinput -> https://github.com/fluffymadness/tinyusb-xinput
+
 ## Notes
 
 * currently it only works about a minute then crashes, i will fix it later.
