@@ -8,6 +8,8 @@ A custom hardware and software bridge that converts proprietary 2.4GHz XInput wi
 
 <img width="1280" height="720" alt="tutoorial2" src="https://github.com/user-attachments/assets/69f4b9bd-83d7-4247-84dc-3be8c190f3ac" />
 
+<img width="2048" height="1714" alt="imageofit" src="https://github.com/user-attachments/assets/95bfc1a6-6153-48f6-bbd0-b27b8514dc48" />
+
 
 ## Architecture
 
